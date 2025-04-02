@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Bernardo Chimelli pt-br</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,200;1,200&display=swap');
+    </style>
+</head>
+<body>
+    <label for="language-select" class="lang">Escolha uma linguagem:</label>
+    <select id="language-select" class="language-select" onchange="changeLanguage(this.value)">
+        <option value="ingles.html">English</option>
+        <option value="portugues.html">Portuguese</option>
+    </select>
+<div class="modelbox">
+    <h1 class="boasvindas">Welcome to my website!</h1>
+</div>
+
+<div class="box">
+    <button class="about" type="button" onclick="window.location.href='about.html'">About</button>
+    <button class="contacts" type="button">Contacts</button> 
+    <button class="projects" type="button">Projects</button>
+</div>
+
+<div class="container">
+    <div class="text">
+        <h3 class="text1">
+            Hi! My name is Bernardo Chimelli,<br>
+            a future full-stack software engineer, located and born in Brazil.<br>
+            At only 18 years old, I have started an Information Systems Graduation<br>
+            at Uniasselvi, Brazil.
+        </h3>
+    </div>
+    <div class="photo">
+        <img src="../images/img.png" alt="This is Bernardo Chimelli" class="photo1" width="180" height="180">
+    </div>          
+</div>
+    <script src="../script/script.js"></script>
+</body>
+</html>
